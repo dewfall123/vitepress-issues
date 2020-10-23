@@ -1,0 +1,16 @@
+{
+  "name": "vitepress-issues",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress",
+    "build-dev": "node koa.js",
+    "build": "vitepress build"
+  },
+  "devDependencies": {
+    "koa": "^2.13.0",
+    "koa-static-server": "^1.5.2",
+    "vitepress": "^0.7.0"
+  }
+}

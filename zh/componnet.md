@@ -1,0 +1,3 @@
+## componnentA
+
+中文
