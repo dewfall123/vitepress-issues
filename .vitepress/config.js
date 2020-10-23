@@ -1,7 +1,5 @@
 const { getRouterConfig } = require('./router');
 
-const base = process.env.NODE_ENV === 'production' ? '/vhooks' : '';
-
 module.exports = {
   title: 'vhooks',
   description: 'vue hooks',
@@ -38,5 +36,5 @@ module.exports = {
   },
   alias: {},
   outDir: 'docs/',
-  base,
+  base: '/vhooks',
 };
